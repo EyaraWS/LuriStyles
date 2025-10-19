@@ -175,9 +175,12 @@
 
 /* CONTENU ACTUALITES PA */
 .newsSOIN div {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     position: absolute;
+    top: 24px;
     height: 0;
-    padding: 10px;
+    padding: 0 10px;
     overflow: hidden;
     text-align: start;
     font-size: 11px;
@@ -187,8 +190,8 @@
 }
 
 .newsSOIN:hover div {
-    top: -361px;
-    height: 385px;
+    top: -351px;
+    height: 375px;
 }
 
 .newsSOIN div a {
@@ -214,6 +217,7 @@
     transition: opacity 0.55s;
     -webkit-transition: opacity 0.55s;
     background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #CFCEC6;
 }
 
@@ -239,6 +243,11 @@
 .staffSOIN img {
     width: 100px;
     height: 55px;
+}
+
+.staffSOIN div {
+    position: relative;
+    margin: 0;
 }
 
 /* CONTENUS STAFF PA */
