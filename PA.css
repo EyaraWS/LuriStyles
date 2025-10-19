@@ -130,14 +130,14 @@
     background-color: #171717;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 0 5px;
 }
 
 .topSOIN span:nth-of-type(1) {
     font-weight: bold;
-    grid-area: 1 / 1 / 2 / 4;
+    grid-area: 1 / 1 / 2 / 5;
 }
 
 /* TOP-SITES PA */
@@ -147,9 +147,13 @@
     background-color: #666666;
 }
 
+.topSOIN a img {
+    width: 15px;
+}
+
 /* PREDEFINIS PA */
 .pfSOIN {
-    margin: 20px 15px 0;
+    margin: 10px 15px 0;
     padding: 6px 0;
     background: #666666;
     display: grid;
