@@ -23,6 +23,7 @@
   --login:url(https://imgur.com/22yg7W1.png);
   --constellpa:url(https://imgur.com/Ide0StT.png);
   --fonpa:url(https://i.ibb.co/7tnXs5ZM/Fond-Cat.png);
+  --deco:url(https://i.ibb.co/7J9vp6Jk/Arc-Silver.png);
   --lowradius:7px;
   --mediumradius:15px;
   --totalradius:100%;
@@ -1967,7 +1968,7 @@ a.mainmenu #i_icon_mini_logout {
 .white_pa_content_info_title {
   width:100%;
   background:var(--groundtitle);
-  color:var(--fondencadré);
+  color:var(--lightypo);
   text-align:center;
   border-radius: var(--mediumradius);
   font: 13px "Poppins", sans-serif;
@@ -2213,7 +2214,7 @@ a.mainmenu #i_icon_mini_logout {
 
 .white_pa_left_vote_txt {
   text-align: center;
-  color: var(--fondencadré);
+  color: var(--lightypo);
   font: 11px "Poppins", sans-serif;
   font-style: italic;
 }
