@@ -485,10 +485,6 @@ table.table1 .posts img {
   margin:0 auto;
 }
 
-.signature_div img:first-child {
-  width:600px;
-}
-
 .signature_div img{
   max-width:100%;
 }
@@ -1950,6 +1946,7 @@ a.mainmenu #i_icon_mini_logout {
 .white_pa_content_ava {
   border-radius: 50% 50% var(--lowradius) var(--lowradius) / 35% 35% var(--lowradius) var(--lowradius);
   overflow: hidden;
+  box-shadow: 0px 0px 3px var(--shadow);
   width: 120px;
   height: 200px;
 }
@@ -1977,7 +1974,8 @@ a.mainmenu #i_icon_mini_logout {
 }
 
 .white_pa_content_info_txt {
-  background: var(--fondencadré);
+  background: var(--fondencadré); 
+  box-shadow: 0px 0px 3px var(--shadow);
   color: var(--lightypo);
   text-align: justify;
   border-radius:var(--mediumradius);
@@ -1996,7 +1994,8 @@ a.mainmenu #i_icon_mini_logout {
   display:block;
   color: var(--blanclair);
   background:var(--fondencadrébis);
-  border-radius:var(--lowradius);
+  border-radius:var(--lowradius); 
+  box-shadow: 0px 0px 3px var(--shadow);
   font: 11px "Poppins", sans-serif;
   margin-top:10px;
 }
@@ -2020,7 +2019,8 @@ a.mainmenu #i_icon_mini_logout {
 .white_pa_left_title {
   width:100%;
   text-align:center;
-  background: var(--fondencadré);
+  background: var(--fondencadré); 
+  box-shadow: 0px 0px 3px var(--shadow);
   padding: 5px;
   border-radius: var(--mediumradius);
   font: 13px "Poppins", sans-serif;
@@ -2042,7 +2042,8 @@ a.mainmenu #i_icon_mini_logout {
   margin-top:5px;
   font: 11px "Poppins", sans-serif;
   background: var(--fondencadré);
-  color: var(--lightypo);
+  color: var(--lightypo); 
+  box-shadow: 0px 0px 3px var(--shadow);
   border-radius:var(--mediumradius);
   padding:10px 15px 15px 15px;
   text-align: justify;
@@ -2109,7 +2110,8 @@ a.mainmenu #i_icon_mini_logout {
   width:100%;
   padding:10px;
   background: var(--groundtitle);
-  background-size:cover;
+  background-size:cover; 
+  box-shadow: 0px 0px 3px var(--shadow);
   background-position:50% 50%;
   height:267px;
   border-radius:var(--mediumradius);
@@ -2140,6 +2142,7 @@ a.mainmenu #i_icon_mini_logout {
 .white_pa_left_news {
   width: 100%;
   background: var(--fondencadré);
+  box-shadow: 0px 0px 3px var(--shadow);
   padding: 15px;
   border-radius: var(--mediumradius);
   height: 122px;
@@ -2192,7 +2195,8 @@ a.mainmenu #i_icon_mini_logout {
 }
 
 .white_pa_left_vote {
-  background: var(--groundtitle);
+  background: var(--groundtitle); 
+  box-shadow: 0px 0px 3px var(--shadow);
   width: 100%;
   padding: 10px;
   border-radius: var(--mediumradius);
@@ -2226,7 +2230,8 @@ a.mainmenu #i_icon_mini_logout {
 }
 
 .white_pa_left_desc {
-  width: 100%;
+  width: 100%; 
+  box-shadow: 0px 0px 3px var(--shadow);
   margin-top: 15px;
   background: var(--fondencadré);
   padding: 15px;
