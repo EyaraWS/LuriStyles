@@ -2310,6 +2310,9 @@ a.mainmenu #i_icon_mini_logout {
   background-position: 50% 50%;
   margin: 0px auto;
   text-align: center;
+  color: var(--lightypo);
+  text-shadow: 0px 0px 4px var(--shadow);
+  font: 32px "Poppins", sans-serif;
   border-radius: var(--mediumradius);
 }
 
@@ -2917,7 +2920,7 @@ a.mainmenu #i_icon_mini_logout {
 
 .white_list_suj_info_title {
   width: 100%;
-  font: 12px "Poppins", sans-serif;
+  font: 16px "Poppins", sans-serif;
   height: 36px;
 }
 
