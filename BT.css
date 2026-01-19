@@ -3212,7 +3212,7 @@ u {
 .white_sun_thread_text span {
   float:left;
   font: 150px "Poppins", sans-serif;
-  color:var(--fondencadrébis);
+  color:var(--lightypo);
   margin: 0px 25px -100px 0px;;
 }
 
