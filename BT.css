@@ -633,6 +633,7 @@ select {
 .infos-posteur {
   color: var(--fondencadrébis);
   font: 12px Calibri;
+  text-align: justify;
   line-height: 18px;
   padding: 2px 0px;
   border-bottom: 1px dotted var(--titlecolor);
