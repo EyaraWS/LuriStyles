@@ -616,13 +616,15 @@ select {
   height: 357px;
   overflow: auto;
   margin-top: 10px;
+  text-align: justify;
   background: var(--grey);
   border-radius:10px;
+  color:var(--lightypo);
   border: solid 1px var(--wrap);
 }
 
 .systab .contents a {
-  color:var(--lightypo);
+  color:var(--fondencadrébis);
 }
 
 .systab .contents img {
@@ -633,7 +635,6 @@ select {
 .infos-posteur {
   color: var(--fondencadrébis);
   font: 12px Calibri;
-  text-align: justify;
   line-height: 18px;
   padding: 2px 0px;
   border-bottom: 1px dotted var(--titlecolor);
