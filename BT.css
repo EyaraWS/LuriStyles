@@ -669,7 +669,9 @@ select {
 
 .ds_interne_contact {
   text-align: center;
-  margin-top:15px;
+  margin-top:15px;    
+  display: flex;
+  flex-direction: column;
 }
 
 .ds_interne_contact img {
