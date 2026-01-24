@@ -868,7 +868,6 @@ select {
     width: 100px;
     margin: 0px 10px; */
     background-image: var(--groundtitle); 
-    box-shadow: 0px 0px 3px var(--shadow);
     padding: 10px;
     border-radius: 20px;
 }
@@ -883,6 +882,7 @@ select {
   border-radius: 20px;
   padding: 20px 10px 10px 10px;
   overflow: hidden;
+  box-shadow: 0px 0px 3px var(--shadow);
 }
 
 .ds_profile_sta_icon {
@@ -913,12 +913,10 @@ select {
 }
 
 .ds_profile_ava {
-  border-radius: 7px;
-  padding: 5px;
-  border: solid 1px var(--fondencadrébis);
-  width: 200px;
-  height: 265px;
-  overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px var(--shadow);
+    height: 255px;
+    overflow: hidden;
 }
 
 .ds_profile_ava img {
