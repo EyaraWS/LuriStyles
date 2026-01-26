@@ -2472,6 +2472,11 @@ background:#191919;
     text-shadow: 0px 0px 4px var(--shadow) !important;
 }
 
+.white_cat_right_sousfo a:hover {
+    color: var(--fondencadrébis) ;
+    text-shadow: 0px 0px 4px var(--shadow) ;
+}
+
 .white_cat_total_ima img {
   width:100%;
 }
