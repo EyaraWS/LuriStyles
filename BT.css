@@ -2473,7 +2473,13 @@ background:#191919;
 }
 
 .white_cat_right_sousfo a:hover {
-    color: var(--fondencadrébis) ;
+    color: var(--fondencadrébis) !important;
+    text-shadow: 0px 0px 4px var(--shadow) ;
+}
+
+
+.white_list_suj_info_title a:hover {
+    color: var(--fondencadrébis) !important;
     text-shadow: 0px 0px 4px var(--shadow) ;
 }
 
