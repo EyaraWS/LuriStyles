@@ -2052,7 +2052,7 @@ a.mainmenu #i_icon_mini_logout {
   border-radius:var(--mediumradius);
   padding:10px 15px 15px 15px;
   text-align: justify;
-  height:49px;
+  height: 60px;
   overflow:auto;
 }
 
@@ -2060,6 +2060,237 @@ a.mainmenu #i_icon_mini_logout {
   color:var(--fondencadrébis);
   font-weight:bold;
   font-style:italic;
+}
+
+
+/* PA PARTO HTML */
+
+.white_pa_left_parto {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.white_pa_left_parto img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    object-fit: cover;
+    border-radius: var(--lowradius);
+    outline: 1px solid var(--lightbrown);
+}
+
+/* PARTENAIRES PA */
+.partMMOR {
+  position: relative;
+  background: rgba(255, 255, 255, 0.9); /* MODIFIABLE */
+  width: 960px;
+  margin: 10px auto 0 auto; /* décale vers le bas et centre horizontalement */
+  background: var(--fonpa);
+  border-radius: 10px; /* coins arrondis */
+  box-shadow: 1px 1px 1px #000000;
+  gap: 15px; /* espace entre les images */
+  padding: 15px; /* marge intérieure (autour du contenu) */
+  overflow: hidden;
+}
+
+/* VOILE PAR-DESSUS */
+.partMMOR::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--parto);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 2; 
+}
+
+/* DISPARITION DU VOILE AU HOVER */
+.partMMOR:hover::before {
+  opacity: 0;
+}
+
+/* Contenu interne */
+.partMMOR .content {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  background: rgba(255,255,255,0.9);
+  border-radius: 10px;
+}
+
+
+/* GREYSCALE STAFF */
+.white_pa_left_staff img {
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+/* HOVER STAFF */
+.white_pa_left_staff img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+}
+
+
+/* GREYSCALE PARTO */
+.white_pa_left img {
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+/* HOVER PREDEF */
+.white_pa_left img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+/* HOVER TOPSITES */
+.white_pa_left_vote_btn :hover {
+  filter: grayscale(0%);
+  transform: scale(1.15);
+}
+
+
+/* GREYSCALE PARTO */
+.white_pa_left_parto img {
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+/* HOVER PARTO */
+.white_pa_left_parto img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+}
+
+/* IMG BANDE PARENARIAT */
+.partMMOR img {
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+/* HOVER BANDE PARENARIAT */
+.partMMOR img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+}
+
+/* FICHE DE PRESENTATION */
+
+.portrait_titre {
+    font-family: Georgia;
+    font-size: 15px;
+    text-shadow: 0px 0px 4px var(--shadow);
+    color: var(--titlecolor);
+    text-align: right;
+    border-bottom: 2px var(--lightypo) dotted;
+    letter-spacing: 4px;
+}
+
+/* NOM PRENOM(S) */
+.npCNER {
+  height: 50px;
+  color: var(--titlecolor);
+  background-image: var(--groundtitle);
+  border: solid 1px var(--border);
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 3px var(--shadow);
+  text-align: center;
+}
+
+/* FICHE */
+.CNER {
+  background-image: var(--groundtitle);
+  border: solid 1px var(--border);
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 3px var(--shadow);
+}
+
+/* INFORMATIONS & PHYSIQUE */
+.abtCNER {
+  background: var(--fondencadré);
+  color: var(--lightypo);
+  border-radius: var(--mediumradius);
+  box-shadow: 0px 0px 3px var(--shadow);
+}
+
+/* INTITULES INFORMATIONS & PHYSIQUE */
+.abtCNER b {
+  color: var(--titlecolor);
+  border-radius: var(--mediumradius);
+}
+/* IMG CNER */
+.imgCNER {
+  border-radius: var(--mediumradius);
+}
+
+/* BLOC CARACTERE */
+.caraCNER {
+  background: var(--fondencadré);
+  border-radius: var(--mediumradius);
+  box-shadow: 0px 0px 3px var(--shadow);
+}
+
+/* ADJECTIFS */
+.caraCNER div {
+  background-image: var(--groundtitle);
+  color: var(--titlecolor);
+  border-radius: var(--mediumradius);
+}
+
+/* HISTOIRE */
+.storyCNER {
+  background: var(--fondencadré);
+  color: var(--lightypo);
+  border-radius: var(--mediumradius);
+  box-shadow: 0px 0px 3px var(--shadow);
+}
+
+/* NAME */
+.nameCNER {
+  width: 350px;
+  align-items:center;
+  text-align: center;
+  background: var(--fondencadré);
+  color: var(--lightypo);
+  border-radius: var(--mediumradius);
+  box-shadow: 0px 0px 3px var(--shadow);
+  font-size: 20px;
+  margin: 0 auto;
+}
+/* INTITULE HISTOIRE */
+.storyCNER b {
+  color: var(--lightypo);
+  border-radius: var(--mediumradius);
+}
+/* PRESENTATION JOUEUR */
+.UCNER {
+  background: var(--fondencadré);
+  color: var(--lightypo);
+  border-radius: var(--mediumradius);
+  box-shadow: 0px 0px 3px var(--shadow);
+}
+/* INTITULES PRESENTATION JOUEUR */
+.UCNER b {
+  color: var(--lightypo);
+  border-radius: var(--mediumradius);
+}
+/* BANDE BAS */
+.bandCNER {
+background:#191919;
+}
+/* POINTE */
+.triCNER {
+  border-top-color:#191919 !important;
 }
 
 
