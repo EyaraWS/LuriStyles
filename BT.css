@@ -2628,7 +2628,6 @@ background:#191919;
   padding: 2px;
   line-height: 15px;
   position: relative;
- -webkit-transition: all .65s linear;
 }
 
  .white_cat_left_desc img {
@@ -2641,7 +2640,7 @@ background:#191919;
 
  .white_cat_left_desc:hover img {
  opacity: 0;
- transition: opacity 3s ease-in-out;
+ -webkit-transition: all .25s linear;
  }
 
 .white_cat_right {
