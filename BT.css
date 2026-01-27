@@ -2630,6 +2630,7 @@ background:#191919;
 }
 
  .white_cat_left_desc img {
+ border-radius: var(--mediumradius);
  position: absolute;
  top: 0;
  left: 0;
