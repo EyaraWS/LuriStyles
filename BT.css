@@ -1036,7 +1036,7 @@ a:hover {text-decoration:none !important;}
 
 ::-webkit-scrollbar-thumb {
     height: 30px;
-    background:var(--lightbrown);
+    background:var(--titlecolor);
 }
 
 input[type="submit"], .button, .button1, .button2 {
