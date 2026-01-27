@@ -41,6 +41,28 @@
 }
 
 [data-color-scheme="dark"] {
+  --blanclair: #1d1c1c;
+  --gris: #201f1e;
+  --fondencadré: #2b2a2a;
+  --lightbrown:#221b15;
+  --fondencadrébis:#8b6650;
+  --titlecolor: #7e6859;
+  --groundtitle:url(https://i.ibb.co/s9Qj5h69/pattern-damier-brown.png);
+  --lightypo: #7b6d63;
+  --greytypo: #676462;
+  --border: #57463b;
+  --shadow: #000000;
+  --banniere:url(https://i.ibb.co/sp8t28WX/Test-Banner.png);
+  --imgfond:url(https://i.ibb.co/MxB2ctYm/Background.png);
+  --constellpa:url(https://imgur.com/5Q356fJ.png);
+  --fonpa:url(https://i.ibb.co/s9Qj5h69/pattern-damier-brown.png);
+  --pattern:url(https://i.ibb.co/8Dwpb2sL/Pattern-Dark-Night-02.png);
+  --deco:url(https://i.ibb.co/bMV1XqVW/Arc-Gold.png);
+  --parto:url(https://i.ibb.co/v4H8J8BV/Partenariats.png);
+}
+
+/* 
+[data-color-scheme="dark"] {
   --blanclair: #0b0f10;
   --gris: #241f1d;
   --fondencadré: #2d2623;
@@ -60,6 +82,7 @@
   --deco:url(https://i.ibb.co/bMV1XqVW/Arc-Gold.png);
   --parto:url(https://i.ibb.co/v4H8J8BV/Partenariats.png);
 }
+  */
 
 .white_list_top_titleu {
   background: var(--groundtitle);
