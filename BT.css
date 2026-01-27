@@ -2636,7 +2636,7 @@ background:#191919;
  position: absolute;
  top: 0;
  left: 0;
- z-index: 100;
+ z-index: 10;
  opacity: 1;
  }
 
