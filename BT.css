@@ -41,12 +41,12 @@
 }
 
 [data-color-scheme="dark"] {
-  --blanclair: #1d1c1c;
+  --blanclair: #121111;
   --gris: #201f1e;
-  --fondencadré: #2b2a2a;
+  --fondencadré: #1f1d1d;
   --lightbrown:#221b15;
-  --fondencadrébis:#8b6650;
-  --titlecolor: #7e6859;
+  --fondencadrébis:#976b48;
+  --titlecolor: #835f46;
   --groundtitle:url(https://i.ibb.co/s9Qj5h69/pattern-damier-brown.png);
   --lightypo: #7b6d63;
   --greytypo: #676462;
