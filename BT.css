@@ -2618,16 +2618,17 @@ background:#191919;
 
 .white_cat_left_desc {
   background-image: var(--groundtitle);
-  padding: 5px;
+  padding: 25px;
   margin-top: 10px;
   border-radius: var(--mediumradius);
   box-shadow: 0px 0px 3px var(--shadow);
-  font: 13px "Poppins", sans-serif;
+  font: 12px "Poppins", sans-serif;
   color: var(--lightypo);
   height: 107px;
   overflow: auto;
   line-height: 18px;
   position: relative;
+  scrollbar-width: none;
 }
 
  .white_cat_left_desc img {
