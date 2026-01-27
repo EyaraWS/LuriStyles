@@ -2625,9 +2625,10 @@ background:#191919;
   color: var(--lightypo);
   height: 107px;
   overflow: auto;
+  padding: 2px;
   line-height: 15px;
   position: relative;
-  scrollbar-width: none;
+ -webkit-transition: all .65s linear;
 }
 
  .white_cat_left_desc img {
