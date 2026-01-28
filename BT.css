@@ -2115,6 +2115,7 @@ a.mainmenu #i_icon_mini_logout {
   box-shadow: 1px 1px 1px #000000;
   gap: 15px; /* espace entre les images */
   padding: 15px; /* marge intérieure (autour du contenu) */
+  transition: opacity 0.5s ease-in-out;
   overflow: hidden;
 }
 
@@ -2125,7 +2126,7 @@ a.mainmenu #i_icon_mini_logout {
   inset: 0;
   background: var(--parto);
   opacity: 1;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease-in-out;
   pointer-events: none;
   z-index: 2; 
 }
@@ -2133,6 +2134,7 @@ a.mainmenu #i_icon_mini_logout {
 /* DISPARITION DU VOILE AU HOVER */
 .partMMOR:hover::before {
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 /* Contenu interne */
