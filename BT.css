@@ -117,10 +117,6 @@
   font: 12px "Poppins", sans-serif;
 }
 
-.white_list_top_title_sub :hover {
-    color: var(--fondencadrébis);
-}
-
 .postprofile {
   padding: 0px !important;
 }
@@ -2665,7 +2661,7 @@ background:#191919;
  .white_cat_left_desc img {
  border-radius: var(--mediumradius);
  -webkit-transition: all .25s ease-in-out;
- filter: grayscale(75%);
+ filter: grayscale(100%);
  position: absolute;
  top: 0;
  left: 0;
@@ -3034,10 +3030,7 @@ background:#191919;
 .white_memberlist_info_inside {
   background-image: var(--groundtitle);
   transition: all 500ms;
-  padding: 15px;
-  border-radius: var(--mediumradius);
   margin-top: -200px;
-  height: 200px;
   opacity: 0;
 }
 
