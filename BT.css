@@ -117,6 +117,10 @@
   font: 12px "Poppins", sans-serif;
 }
 
+.white_list_top_title_sub :hover {
+    color: var(--fondencadrébis);
+}
+
 .postprofile {
   padding: 0px !important;
 }
