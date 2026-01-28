@@ -2644,6 +2644,7 @@ background:#191919;
 
 .white_cat_left_desc {
   background-image: var(--groundtitle);
+  -webkit-transition: all .25s ease-in-out;
   margin-top: 10px;
   border-radius: var(--mediumradius);
   box-shadow: 0px 0px 3px var(--shadow);
@@ -2658,6 +2659,7 @@ background:#191919;
 
  .white_cat_left_desc img {
  border-radius: var(--mediumradius);
+ -webkit-transition: all .25s ease-in-out;
  filter: grayscale(100%);
  position: absolute;
  top: 0;
