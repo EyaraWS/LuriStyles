@@ -2197,7 +2197,7 @@ a.mainmenu #i_icon_mini_logout {
 /* IMG BANDE PARENARIAT */
 .partMMOR img {
   filter: grayscale(100%);
-  transition: all 0.4s ease;
+    transition: transform 0.2s ease-out;
   border-radius: 10px;
 }
 
