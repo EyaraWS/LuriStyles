@@ -2661,7 +2661,7 @@ background:#191919;
  .white_cat_left_desc img {
  border-radius: var(--mediumradius);
  -webkit-transition: all .25s ease-in-out;
- filter: grayscale(100%);
+ filter: grayscale(75%);
  position: absolute;
  top: 0;
  left: 0;
