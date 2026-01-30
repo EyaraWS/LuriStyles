@@ -3579,7 +3579,7 @@ u {
   width:270px;
   padding:10px;
   font: 13px "Poppins", sans-serif;
-  color:var(--titlecolor);
+  color:var(--lightypo);
   border-radius:var(--mediumradius);
   height:150px;
   overflow:auto;
