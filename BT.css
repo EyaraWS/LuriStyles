@@ -3657,7 +3657,7 @@ u {
 
 .white_sun_txt {
   padding:20px;
-  color:var(--titlecolor);
+  color:var(--lightypo);
   font: 13px "Poppins", sans-serif;
 }
 
