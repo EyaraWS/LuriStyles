@@ -3545,7 +3545,7 @@ u {
 }
 
 .white_sun_thread_text {
-  color:var(--titlecolor);
+  color:var(--lightypo);
   font: 13px "Poppins", sans-serif;
   margin:20px;
 }
