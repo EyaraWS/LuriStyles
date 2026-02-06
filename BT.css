@@ -902,7 +902,7 @@ select {
   z-index: 9;
   height: 77px;
   border: 1px solid #3c3c3c;
-  background: var(--pattern);
+  background: var(--blanclair);
   margin: 0px auto 10px auto;
   border-radius: 20px;
   padding: 20px 10px 10px 10px;
@@ -931,7 +931,7 @@ select {
 }
 
 .ds_profile_sta_title a {
-  color: var(--blanclair);
+  color: var(--fondencadrébis);
   font: 11px Calibri;
   text-transform: uppercase;
   letter-spacing: 1px;
