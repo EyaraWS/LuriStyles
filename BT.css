@@ -931,7 +931,7 @@ select {
 }
 
 .ds_profile_sta_title a {
-  color: var(--fondencadrébis);
+  color: var(--blanclair);
   font: 11px Calibri;
   text-transform: uppercase;
   letter-spacing: 1px;
