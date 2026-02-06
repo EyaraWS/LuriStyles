@@ -833,7 +833,7 @@ select {
   width: 100%;
   padding: 15px;
   border-radius: 10px;
-  background-color: var(--fondcat);
+  background-image: var(--groundtitle);
 }
 
 .ds_profile_left {
@@ -902,6 +902,7 @@ select {
   z-index: 9;
   height: 77px;
   border: 1px solid #3c3c3c;
+  background: var(--pattern);
   margin: 0px auto 10px auto;
   border-radius: 20px;
   padding: 20px 10px 10px 10px;
