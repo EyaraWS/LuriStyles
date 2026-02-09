@@ -2390,7 +2390,7 @@ background:#191919;
   box-shadow: 0px 0px 3px var(--shadow);
   padding: 15px;
   border-radius: var(--mediumradius);
-  height: 122px;
+  height: 160px;
   overflow: auto;
 }
 
@@ -2443,9 +2443,10 @@ background:#191919;
   background: var(--groundtitle); 
   box-shadow: 0px 0px 3px var(--shadow);
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   border-radius: var(--mediumradius);
   margin-top: 15px;
+  height: 55px;
 }
 
 .white_pa_left_vote_btn {
@@ -2481,10 +2482,12 @@ background:#191919;
   background: var(--fondencadré);
   padding: 5px;
   border-radius: var(--mediumradius);
-  text-align: justify;
+  text-align: center;
   font: 11px "Poppins", sans-serif;
+  text-transform: uppercase;
   color: var(--lightypo);
-  height: 80px;
+  font-weight: bolder;
+  height: 50px;
   overflow: auto;
 }
 
