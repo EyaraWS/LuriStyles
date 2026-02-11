@@ -2183,6 +2183,7 @@ a.mainmenu #i_icon_mini_logout {
 /* HOVER TOPSITES */
 .white_pa_left_vote_btn :hover {
   filter: grayscale(0%);
+  color: var(--titlecolor)
   transform: scale(1.15);
 }
 
