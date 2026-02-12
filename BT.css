@@ -84,6 +84,19 @@
 }
   */
 
+.mentiontag {
+  background-color: var(--lightypo);
+  color: var(--lightypo);
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 1px 3px 2px;
+}
+
+.mentiontag:hover, .mentiontag:active {
+  background-color: var(--titlecolor);
+  color: white;
+}
+
 .white_list_top_titleu {
   background: var(--groundtitle);
   box-shadow: 0px 0px 3px var(--shadow);
@@ -152,7 +165,7 @@
   z-index: -1;
   left: 20px;
   top: -16px;
-  background: red;
+  background: var(--border);
   opacity: 0.2;
 }
 
