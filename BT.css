@@ -1775,7 +1775,7 @@ a.mainmenu #i_icon_mini_message {
 a.mainmenu #i_icon_mini_new_message {
   background-image: var(--newmess);
   background-size: 87%;
-  background-blend-mode: color-burn;
+  background-blend-mode: luminosity;
 }
 
 a.mainmenu #i_icon_mini_login {
